@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./src:/app/src
+      - ./app.py:/app/app.py
+    environment:
+      - FLASK_ENV=development
+      - FLASK_APP=app.py
+    restart: always

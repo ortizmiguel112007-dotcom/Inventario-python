@@ -1,0 +1,17 @@
+{
+  "name": "proyect-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.py",
+  "scripts": {
+    "install_venv": "python -m venv venv && venv\\Scripts\\pip install -r requirements.txt",
+    "dev": "venv\\Scripts\\python App.py",
+    "setup": "npm run install_venv && npm run dev"
+  },
+  "author": "Zero [Angel]",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
