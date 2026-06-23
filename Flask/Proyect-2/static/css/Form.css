@@ -1,0 +1,68 @@
+body {
+    padding: 3rem;
+    background-color: #f8f9fa;
+}
+
+/* Contenedor principal con sombra y bordes */
+.Group-component {
+    width: 100%;
+    max-width: 1000px; /* Ajusta según necesites */
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.Header-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(50, 130, 255);
+    padding: 0.5rem 1rem;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+}
+
+.Header-component h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.Header-component h2 {
+    margin: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 0.2rem 0.8rem;
+    font-size: 1.2rem;
+    background-color: rgb(240, 220, 40);
+}
+
+/* Estilo para el botón */
+.button-component {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.button-component:hover {
+    background-color: #218838;
+    color: white;
+}
+
+/* Ajustes de tabla */
+.table {
+    border: 1px solid #dee2e6;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: white;
+}

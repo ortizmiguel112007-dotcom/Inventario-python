@@ -1,0 +1,13 @@
+{
+  "name": "proyect-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install_venv": "python -m venv venv && venv\\Scripts\\pip install -r requirements.txt",
+    "dev": "venv\\Scripts\\python App.py",
+    "setup": "npm run install_venv && npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
